@@ -19,7 +19,14 @@
 		</plugins>
 
 	</build>
+	
+	
 	<dependencies>
+	 <dependency>    
+	  <groupId>com.apple</groupId>   
+	    <artifactId>AppleJavaExtensions</artifactId>   
+	      <version>1.4</version>
+	       </dependency>
 		<!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
 		<dependency>
 			<groupId>org.seleniumhq.selenium</groupId>
